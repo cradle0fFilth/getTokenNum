@@ -8,7 +8,7 @@ bsc = "https://bsc-dataseed.binance.org/"
 web3 = Web3(Web3.HTTPProvider(bsc))
 print(web3.isConnected())
 
-#输入要买币种的余额
+#输入要买币种的合约地址
 token = web3.toChecksumAddress("0x55d398326f99059ff775485246999027b3197955")
 
 #输入要查询的地址
